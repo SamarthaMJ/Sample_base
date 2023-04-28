@@ -3,7 +3,7 @@ from deta import Deta
 
 # Connect to Deta
 deta = Deta("d0rvgq6trvd_F5YogUjMGK1SFTAusPwWWvv3MBPLoTrC")
-db = deta.Base("new_base")
+db = deta.Base("new_base_2")
 
 # Create Streamlit app
 st.write("Please enter your name and age below:")
